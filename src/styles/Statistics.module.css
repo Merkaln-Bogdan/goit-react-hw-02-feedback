@@ -1,0 +1,23 @@
+.SectionTitle {
+  font-size: 30px;
+}
+.Statistics {
+  margin: 20px 0px 20px 0px;
+  width: 500px;
+  height: 50px;
+  display: flex;
+}
+.StatisticsButton {
+  font-size: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+}
+.StatisticsBox {
+  width: 500px;
+  height: 265px;
+  display: grid;
+}
+.percentage {
+  margin-right: 10px;
+}
