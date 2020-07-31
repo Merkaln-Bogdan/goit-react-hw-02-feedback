@@ -1,3 +1,8 @@
 import React from "react";
-const Notification = () => <div>No feedback given</div>;
+import PropTypes from "prop-types";
+
+const Notification = (prop) => <h2>{prop.message}</h2>;
 export default Notification;
+Notification.propTypes = {
+  message: PropTypes.string,
+};
